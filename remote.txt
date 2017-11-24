@@ -6,4 +6,9 @@ git push -u origin master;
 3.操作
 git push origin master; 
 git pull origin master; 
+4. git remote -v ; 查看版本库的详细信息
 
+5.远程删除
+git rm --cached file_name; 
+git commit; 
+git push; 
