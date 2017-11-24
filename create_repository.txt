@@ -19,3 +19,9 @@ git log;
 
 cat file_name 
 //可以查看repository中
+
+//对工作区的文件进行回退,顺序：先暂存区，再仓库(实质是用暂存区或者仓库里面的文件替换工作区)
+git checkout -- file_name;
+
+//回退版本库
+git reset; 
