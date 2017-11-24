@@ -1,0 +1,8 @@
+1. git tag v1.0; 自动将v1.0置于最新提交的版本
+2. git tag v commit-id; 
+3. git show v; 
+
+4. git push origin v1.0;  将标签推送到远端
+   git push origin --tags; 
+5. git tag -d v;//删除tag
+	git push origin :refs/tags/v; 

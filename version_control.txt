@@ -1,0 +1,23 @@
+git中分为三个区：工作区，暂存区，git库
+
+1.将版本库回退
+git reset --hard head^^^;
+//^代表之前的第几个版本 
+
+git reset --hard id; 
+git log;//可以看到提交的序列id
+// --hard代表彻底的回退
+
+git reset --file_name; 
+//对暂存区的文件进行回退
+
+2.对工作区进行回退
+git checkout -- file_name;
+
+//回退到距离最近的暂存或者版本库;
+//查看工作区和最新版本库有什么区别
+** git diff head -- file_name;
+
+
+3.删除文件
+git rm file_name; 

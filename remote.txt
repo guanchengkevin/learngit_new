@@ -1,0 +1,9 @@
+1.添加远程库
+git add remote origin git-repository-address; 
+2.将本地库与之关联 
+git push -u origin master; 
+-u 会把本地库与远程库关联
+3.操作
+git push origin master; 
+git pull origin master; 
+

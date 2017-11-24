@@ -1,0 +1,8 @@
+查看分支 git branch; 
+创建分支 git branch branch_name;
+切换分支 git checkout branch_name;
+合并到当前分支 git merge branch_name; 
+删除分支 git branch -d branch_name; 
+
+git log --graph --pretty=oneline --abbre-commit;
+//可以看到 分支合并情况
